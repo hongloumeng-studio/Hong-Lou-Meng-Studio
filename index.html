@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>也評</title>
+    <script>
+      const synth = window.speechSynthesis;
+      // For getting or setting the voice; 
+      /* This app use the Chinese language voices */
+      const voices = synth.getVoices() //.filter(v=> ["zh-TW", "zh-CN"].includes(v.lang))
+    </script>
+    
+    <!-- using Firebase & Cloud console: YT Project 22104's API Key 
+         Named "Browser key (auto created by Firebase)"
+         API Restrictions / Restrcit Key : add "YouTube Data API v3" 
+    -->
+    <!-- import YT API-->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script> // Load gapi JavaScript client library. 
+      gapi.load("client", { callback: function() { console.log('Client Loaded') }   })
+    </script>
+    <script>
+      const title='%VITE_SITE_TITLE%'
+      document.title = title
+      console.log('Website Title: ', title)
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+
+</html>
