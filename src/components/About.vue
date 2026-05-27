@@ -82,7 +82,7 @@ function TextToSpeech(txt, paragraph_Item){
         const utterance = new SpeechSynthesisUtterance()
         utterance.voice = voices[store.defaultVoice]      //voice.value                
         utterance.lang = voices[store.defaultVoice].lang  //voice.value.lang 
-        utterance.rate = 1 + (getOS==='macOS'? 0 : 0.01*store.wordSpeed - 0.25)
+        utterance.rate = 1 +0.01*store.wordSpeed - (getOS==='macOS'? 0.5 : 0.25)
         utterance.pitch = store.defaultVoice? 0 : 1
         
 

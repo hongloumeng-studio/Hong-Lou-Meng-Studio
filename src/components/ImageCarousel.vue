@@ -4,6 +4,7 @@
                 hide-delimiter-background
                 v-model="currentIndex"
                 :height="height"
+                :show-arrows="props.showFunctionButton"
         >
             <template v-for="(f, fi) in props.figure" :key="fi">
                 <v-carousel-item v-if="f.url" style="margin:0 auto">
@@ -91,10 +92,10 @@ onMounted(() => {
 }
 
 /* Change inactive delimiter color */
-/*.v-carousel__controls__item {
-color: #bbb !important; -- light gray 
+.v-carousel__controls__item {
+color: #777 !important;  /*-- light gray */
 }
-*/
+
 
 /* Change active delimiter color */
 .v-carousel__controls__item.v-btn.v-btn--active {

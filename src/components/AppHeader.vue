@@ -272,7 +272,7 @@ function playVerse(verse){
         // utterance.voice = voices[verse.id % 3]
         utterance.voice = voices[store.defaultVoice] //voice.value                
         utterance.lang = voices[store.defaultVoice].lang  //voice.value.lang 
-        utterance.rate = 1 + + (getOS==='macOS'? 0 : 0.01*store.wordSpeed)
+        utterance.rate = 1 + 0.01*store.wordSpeed - (getOS==='macOS'? 0.5 : 0)
         utterance.pitch = store.defaultVoice? 0 : 1
 
         if(vid.includes('title')){   // a title text spread out the balnk spaces 
