@@ -23,6 +23,11 @@ const router = createRouter({
       component: () => import('../views/Riddles.vue')
     },
     {
+      path: '/characterSummary',
+      name: 'characterSummary',
+      component: () => import('../views/CharacterSummary.vue')
+    },
+    {
       path: '/twelveActresses',
       name: 'twelveActresses',
       component: () => import('../views/TwelveActresses.vue')
@@ -31,18 +36,21 @@ const router = createRouter({
       path: '/correctioList',
       name: 'correctioList',
       component: () => import('../views/CorrectioList.vue')
-    }
-    ,
+    },
     {
       path: '/installZhVoices',
       name: 'installZhVoices',
       component: () => import('../views/InstallZhVoices.vue')
-    }
-    ,
+    },
     {
       path: '/timeline',
       name: 'timeline',
       component: () => import('../views/Timeline.vue')
+    },
+    {
+      path: '/reference',
+      name: 'referenc',
+      component: () => import('../views/Reference.vue')
     }
   ]
 })

@@ -37,8 +37,8 @@
           </v-btn>
         </template>
         <v-list>
+          <v-list-item @click="openDialog('設定 Settings')" class="bg-blue">設定 Settings<v-icon icon="mdi-cog"></v-icon></v-list-item>
           <v-list-item @click="openDialog('前言 About')">前言 About</v-list-item>
-          <v-list-item @click="openDialog('設定 Settings')">設定 Settings<v-icon icon="mdi-cog"></v-icon></v-list-item>
           <v-list-item to="/installZhVoices">安裝中文語音</v-list-item>
 
           <!-- Second Layer Menu 附錄 -->
@@ -56,9 +56,11 @@
                       </template>
                       <!-- Second Layer Menu Items -->
                       <v-list><v-list-item to="/riddles">第五十回《燈謎詩》的解釋</v-list-item></v-list>
+                      <v-list><v-list-item to="/characterSummary">人物一覽表</v-list-item></v-list>
                       <v-list><v-list-item to="/twelveActresses">十二戲子一覽表</v-list-item></v-list>
                       <v-list><v-list-item to="/correctioList">一并校正的字彙</v-list-item></v-list>
                       <v-list><v-list-item to="/timeline">時間綫 Timeline</v-list-item></v-list>
+                      <v-list><v-list-item to="/reference">文獻與資源 Reference</v-list-item></v-list>
                   </v-menu>
         </v-list>
       </v-menu>
@@ -172,6 +174,9 @@ const store = useAppStore()
 const versions = store.versions
 const activeVersions = store.activeVersions
 
+import useSharedComp from '@/assets/js/SharedComp.js'
+const {openDialog, getOS} = useSharedComp()
+
 const site_title =  import.meta.env.VITE_SITE_TITLE 
 const site_subtitle =  import.meta.env.VITE_SITE_SUBTITLE 
 
@@ -267,7 +272,7 @@ function playVerse(verse){
         // utterance.voice = voices[verse.id % 3]
         utterance.voice = voices[store.defaultVoice] //voice.value                
         utterance.lang = voices[store.defaultVoice].lang  //voice.value.lang 
-        utterance.rate = 1 + 0.01*store.wordSpeed
+        utterance.rate = 1 + + (getOS==='macOS'? 0 : 0.01*store.wordSpeed)
         utterance.pitch = store.defaultVoice? 0 : 1
 
         if(vid.includes('title')){   // a title text spread out the balnk spaces 
@@ -343,9 +348,7 @@ function showHelp(item){
 
 import useEmitter from '@/assets/js/Emitter.js'
 const emitter  = useEmitter()
-function openDialog(dialog){
-      emitter.emit('openDialog', {dialog: dialog})
-}
+
 const openCommentBox= ref(false)
 
 function toggleCommentBox(){

@@ -15,43 +15,10 @@
             <!--回目-->
               <ChapterTitle :title="currentVersionChapter(version.id, store.chapterNumber).title ?? voidChapterTitle(store.chapterNumber)"/>
             <!--回目-->
-
             <!--圖例 (upcoming feature; disabled currently )-->
-            <template v-if="store.showCarousel">
-              <div  v-if="currentVersionChapter(version.id, store.chapterNumber).figure!==undefined"
-                    class="carousel-figure"
-              >
-                <v-carousel 
-                     class="carousel-figure" 
-                     hide-delimiter-background
-                     hide-delimiters
-                     v-model="currentIndex"
-                     height="25vh"
-                >
-                <template v-for="(f, fi) in currentVersionChapter(version.id, store.chapterNumber)?.figure" :key="fi">
-                  <v-carousel-item v-if="f.url">
-                      <v-img  :src="`/images/${f.url}`"></v-img>
-                  </v-carousel-item>
-                   
-                  <v-overlay :scrim="false"
-                    content-class="w-100 h-100 d-flex flex-column flex-end align-center justify-space-between pointer-pass-through py-0"
-                    contained
-                    model-value
-                    persistent
-                  >
-                      <div><!--placeholder--></div>
-                      <v-chip 
-                          class="carousel-caption"
-                          :key="currentIndex" 
-                          :text="`${currentVersionChapter(version.id, store.chapterNumber)?.figure[currentIndex].caption}`"
-                          color="#eee"
-                          size="small"
-                          variant="flat"
-                      ></v-chip>
-                  </v-overlay>
-                  </template>
-                </v-carousel> 
-              </div>
+            
+            <template v-if="currentVersionChapter(version.id, store.chapterNumber).figure!==undefined">
+              <ImageCarousel :figure="currentVersionChapter(version.id, store.chapterNumber).figure" />
             </template>
             <!--圖例-->
             
@@ -87,10 +54,12 @@
 </template>
   
 <script setup>
-import { ref, onMounted,shallowRef, toRef } from 'vue'
+import { ref, onMounted } from 'vue'
 import ChapterTitle  from '@/components/ChapterTitle.vue'
 import Sentence      from '@/components/Sentence.vue'
+import ImageCarousel from '@/components/ImageCarousel.vue'
 import YTComments    from '@/components/YTComments.vue'
+
 import {useAppStore} from '@/stores'
 const store = useAppStore()
 const showComments= ref(false)
@@ -98,13 +67,10 @@ const showComments= ref(false)
 function currentVersionChapter(versionID, chapterNumber) {
   return store.chpFolder[`${versionID}_${chapterNumber}`]
 }
-
-const currentIndex = shallowRef(0)
-// const currentItem = toRef(() => currentVersionChapter(version.id, store.chapterNumber)?.figure[currentIndex.value])
-
 function voidChapterTitle(id) {
   return {"id": id,"title":{"text":"（無）"}, "content":[{"id":"1","text":"\t\t無相應章回0。\n\n"}]}
 }
+
 const col_Distribution = {
   "true":  {"left": 10, "right": 2}
 , "false": {"left": 12, "right": 0}
@@ -126,7 +92,7 @@ const col_Distribution = {
 
    import useEmitter from '@/assets/js/Emitter.js'
    const emitter  = useEmitter()
-  
+
 onMounted(() => {
     emitter.on('openCommentBox', (data) => {
         // console.log('Reader Platform opens Comment Box:', data.value)
@@ -152,6 +118,18 @@ onMounted(() => {
   .carousel-caption {
       padding:1px 5px; border-radius: 3px; opacity: 0.8;
   }
+
+  /* Change inactive delimiter color */
+  /*.v-carousel__controls__item {
+    color: #bbb !important; -- light gray 
+  }
+  */
+
+  /* Change active delimiter color */
+  .v-carousel__controls__item.v-btn.v-btn--active {
+    color: #ff5722 !important; /* orange */
+  }
+
   .small-chip {
       padding: 0px 8px !important;
   }
