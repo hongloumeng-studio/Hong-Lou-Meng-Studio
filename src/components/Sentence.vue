@@ -111,11 +111,26 @@
 
 <v-dialog  v-model="annotationDialog" width="auto">
   <v-card>
+    <div style="margin:0;">
+    <v-btn icon="mdi-close" size="x-small" class="float-right mr-1" @click="annotationDialog=!annotationDialog"></v-btn>
+    </div>
     <v-card-text class="mt-3 verse">
-        <div v-html="annotationText"></div>
-        <div v-if="illustationSrc" class="text-center"  style="margin:1rem auto;width:90%;">
-            <a :href="illustationSrc" target="_blank">Go to <v-icon>mdi-link</v-icon></a>
-            <iframe :src="illustationSrc" class="illustrate"></iframe>
+        <div v-html="annotationText" style="background-color: khaki;padding:6px;"></div>
+        <div v-if="illustationSrc" class="text-center"  style="margin:1rem auto; width:90%;">
+            <template v-if="illustationSrc.includes('.mp4')">
+                <video width="50%" autoplay loop muted playsinline>
+                    <source :src="illustationSrc" type="video/mp4">
+                </video>
+            </template>
+            <template v-else-if="illustationSrc.includes('http')">
+                <a :href="illustationSrc" target="_blank">Go to <v-icon>mdi-link</v-icon></a>
+                <iframe :src="illustationSrc" class="illustrate"></iframe>
+            </template>
+            
+            <template v-else>
+                <img :src="illustationSrc" style="width:50% !important;"/>
+            </template>
+            
         </div>
         <div v-if="videoSrc" class="text-center"  style="margin:1rem auto;width:90%;">
             <iframe width="560" height="315" :src="videoSrc" 
@@ -193,6 +208,9 @@ function getAnnotation(a){
         annotationText.value = ""  // initialization
         phrase[a].forEach(n=>{
             if(n.note){
+                illustationSrc.value = null  // reset
+                videoSrc.value = null
+
                 annotationText.value += n.note + "<br>"
                 if(n.illustration){
                     // illustration is a web or picture url 
