@@ -116,19 +116,22 @@
     </div>
     <v-card-text class="mt-3 verse">
         <div v-html="annotationText" style="background-color: khaki;padding:6px;"></div>
-        <div v-if="illustationSrc" class="text-center"  style="margin:1rem auto; width:90%;">
-            <template v-if="illustationSrc.includes('.mp4')">
+        <div v-if="illustationSrc" class="text-center"  style="margin:1rem auto; width:90%;text-align: center;">
+            <template v-for="i in illustationSrc">
+            <template v-if="i.includes('.mp4')">
                 <video width="50%" autoplay loop muted playsinline>
-                    <source :src="illustationSrc" type="video/mp4">
+                    <source :src="i" type="video/mp4">
                 </video>
             </template>
-            <template v-else-if="illustationSrc.includes('http')">
-                <a :href="illustationSrc" target="_blank">Go to <v-icon>mdi-link</v-icon></a>
-                <iframe :src="illustationSrc" class="illustrate"></iframe>
+            <template v-else-if="i.includes('http')">
+                <a :href="i" target="_blank">Go to <v-icon>mdi-link</v-icon></a>
+                <iframe :src="i" class="illustrate" style="width:100%;margin:0 auto !important;"></iframe>
             </template>
             
             <template v-else>
-                <img :src="illustationSrc" style="width:50% !important;"/>
+                <img :src="i" style="width:50% !important; text-align:center !important;margin:0 auto !important;"/>
+            </template>
+            <br/>
             </template>
             
         </div>
@@ -197,7 +200,7 @@ const hover=ref(false)
 const annotationDialog = ref(false)
 const annotationText = ref('')
 const critiqueText = ref(null)
-const illustationSrc = ref('')
+const illustationSrc = ref([])
 const videoSrc = ref('')
 function getImageUrl(img){
     return '/src/assets/images/font/'+img+'.png'
@@ -208,13 +211,20 @@ function getAnnotation(a){
         annotationText.value = ""  // initialization
         phrase[a].forEach(n=>{
             if(n.note){
-                illustationSrc.value = null  // reset
+                illustationSrc.value = []  // reset
                 videoSrc.value = null
 
                 annotationText.value += n.note + "<br>"
                 if(n.illustration){
                     // illustration is a web or picture url 
-                    illustationSrc.value = n.illustration
+                    if(n.illustration instanceof Object){
+                        illustationSrc.value = n.illustration
+                    }
+                    else 
+                    {
+                        illustationSrc.value = [n.illustration]
+                    }
+                    
                 }
                 if(n.video){
                     // illustration is a web or picture url 
