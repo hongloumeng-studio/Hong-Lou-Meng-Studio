@@ -123,6 +123,10 @@
                     <source :src="i" type="video/mp4">
                 </video>
             </template>
+            <template v-else-if="i.match(/^https?:\/\/[^\s]+\.jpe?g/g)">
+                <a :href="i" target="_blank">Go to <v-icon>mdi-link</v-icon></a><br/>
+                <img :src="i" style="width:50% !important; text-align:center !important;margin:0 auto !important;"/>
+            </template>
             <template v-else-if="i.includes('http')">
                 <a :href="i" target="_blank">Go to <v-icon>mdi-link</v-icon></a>
                 <iframe :src="i" class="illustrate" style="width:100%;margin:0 auto !important;"></iframe>

@@ -782,7 +782,7 @@
 ,{"char":"蘭、菌","readAs":"蘭菌"}
 ,{"char":"磨蹭","readAs":"磨『蹭』"}
 ,{"char":"趿","readAs":"薩"}
-,{"char":"該死，該死","readAs":"該死該死"}
+,{"char":"該死。該死","readAs":"該死。。該死"}
 ,{"char":"鐵爐、鐵叉、鐵絲蒙","readAs":"鐵爐鐵叉鐵絲蒙"}
 ,{"char":"六、七、八","readAs":"六七八"}
 ,{"char":"來，來，來","readAs":"來來來"}
@@ -910,6 +910,8 @@
 ,{"char":"璉","readAs":"連"}
 ,{"char":"稱","readAs":"撐"}
 ,{"char":"都","readAs":"兜"}
+,{"char":"擿","readAs":"擲"}
+,{"char":"鶻","readAs":"胡"}
 ,{"char":"各種","readAs":"各冢"}
 ,{"char":"頭子","readAs":"骰子"}
 ,{"char":"嫂子","readAs":"嫂籽"}
