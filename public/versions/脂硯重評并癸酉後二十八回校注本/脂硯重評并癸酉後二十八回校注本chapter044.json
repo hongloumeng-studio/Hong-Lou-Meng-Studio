@@ -91,6 +91,7 @@
 	}
 	,{"id":"27"
 	,"text":"平兒忙勸：「奶奶仔細手疼。」"
+	,"critique":[{"平兒忙勸：「奶奶仔細手疼。」":[{"critic":"飲者","comment":"平兒仁慈，用「仔細手疼」勸阻鳳姐下狠手。不料鳳姐反而想用家夥了。"}]}]
 	}
 	,{"id":"28"
 	,"text":"鳳姐便說：「你再打著問他跑什麼。他再不說，把嘴撕爛了他的！」"
@@ -286,6 +287,8 @@
 	}
 	,{"id":"89"
 	,"text":"寶玉忙走至妝臺前，將一個宣窯瓷盒揭開，裡面盛著一排十根玉簪花棒，拈了一根遞與平兒。又笑向他道：「這不是鉛粉，這是紫茉莉花種，研碎了兌上香料製的。」"
+	,"annotate":[{"宣窯瓷盒":[{"note":"明宣德年官窯所製瓷器。" , "illustration":["https://tse3.mm.bing.net/th/id/OIP.EoGF4cYhR8JjarHZIvfV2gHaHa","https://i.ytimg.com/vi/x24izCdthoE/maxresdefault.jpg"] }]}
+				,{"玉簪花棒":[{"note":"挑胭脂的玉簪子。" , "illustration":["https://tse4.mm.bing.net/th/id/OIP.FQYiyJFtXxQRQTni-DYSggHaE7"] }]}]
 	}
 	,{"id": "90"
 	,"text":"平兒倒在掌上看時，果見輕白紅香，四樣俱美，攤在面上也容易勻淨，且能潤澤肌膚，不似別的粉青重澀滯。然後看見胭脂也不是成張的，卻是一個小小的白玉盒子，裡面盛著一盒，如如玫瑰膏子一樣。"

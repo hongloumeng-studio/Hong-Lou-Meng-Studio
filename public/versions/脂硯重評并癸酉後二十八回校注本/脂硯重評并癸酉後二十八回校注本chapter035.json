@@ -10,13 +10,14 @@
     ,"text":" \t\t\n\n\n\n\n\n"
 	}
 	,{"id": "1"
-	,"text":"\t\t話說寶釵分明聽見林黛玉刻薄他，因記挂著母親哥哥，幷不回頭，一徑去了。"
+	,"text":"\t\t話說寶釵分明聽見林黛玉刻薄他，因記掛著母親哥哥，幷不回頭，一徑去了。"
 	}
 	,{"id": "2"
 	,"text":"這裡林黛玉還自立于花陰之下，遠遠的却向怡紅院內望著，只見李宮裁、迎春、探春、惜春幷各項人等都向怡紅院內去過之後，一起一起的散盡了，"
 	}
 	,{"id": "3"
 	,"text":"只不見鳳姐兒來，心裡自己盤算道：「如何他不來瞧寶玉？便是有事纏住了，他必定也是要來打個花胡哨，討老太太和太太的好兒纔是。今兒這早晚不來，必有原故。」"
+	,"annotate":[{"花胡哨":[{"note":"花胡哨，即花言巧语，虚情假意的敷衍。而「花里胡哨」，則形容颜色纷雑，或舉止言语輕佻 。"}]}]
 	}
 	,{"id": "4"
 	,"text":"一面猜疑，一面抬頭再看時，只見花花簇簇一群人又向怡紅院內來了。定睛看時，只見賈母搭著鳳姐兒的手，後頭邢夫人、王夫人，跟著周姨娘幷丫鬟媳婦等人都進院去了。"
@@ -42,6 +43,7 @@
 	}
 	,{"id": "11"
 	,"text":"因暗暗的嘆道：「雙文，雙文，誠爲命薄人矣。然你雖命薄，尚有孀母弱弟；今日林黛玉之命薄，一幷連孀母弱弟俱無。古人云 『佳人命薄』，然我又非佳人，何命薄勝于雙文哉！」"
+	,"annotate":[{"雙文，雙文":[{"note":"《西廂記》女主角崔鶯鶯，字雙文。以 唐，元稹《鶯鶯傳》，又稱《會真記》為藍本。 一説，雙文是元稹的表妹。"}]}]
 	}
 	,{"id": "12"
 	,"text":"一面想，一面只管走，不防廊上的鸚哥見林黛玉來了，嘎的一聲撲了下來，倒嚇了一跳，因說道：「作死的！又扇了我一頭灰。」"
@@ -116,6 +118,7 @@
 	}
 	,{"id":"34"
 	,"text":"薛蟠道：「妹妹的項圈我瞧瞧，只怕該炸一炸去了。」"
+	,"annotate":[{"炸一炸":[{"note":"炸一炸黃金項圈，就是泡藥水清理黃金首飾，使其回復光澤\n比如，用食鹽二克，小蘇打七克，漂白粉八克），清水六十克的比例調成藥水，泡兩小時，可恢復黃金顔色。"}]}]
 	}
 	,{"id":"35"
 	,"text":"寶釵道：「黃澄澄的又炸他作什麼？」  "
@@ -183,6 +186,7 @@
 	}
 	,{"id": "56"
 	,"text":"賈母聽了，笑道：「猴兒，把你乖的！拿著官中的錢你作人。」說的大家笑了。"
+	,"annotate":[{"官中的錢":[{"note":"大家公用中的錢。"}]}]
 	}
 	,{"id": "57"
 	,"text":"鳳姐也忙笑道：「這不相干，這個小東道我還孝敬的起！」"
@@ -253,6 +257,7 @@
 	}
 	,{"id": "79"
 	,"text":"\t\t大家說著往前步，正走，忽見史湘雲、平兒、香菱等在山石邊掐鳳仙花呢，見了他們走來，都迎上來了。"
+	,"annotate":[{"鳳仙花":[{"note":"鳳仙花又稱「指甲花」，古代女子常用來染指甲。" , "illustration":["https://thfvnext.bing.com/th/id/R.c5a47961b5a981b016ec965c5c1e1730?rik=CqbRFdCKuO4yrA&riu=http%3a%2f%2ftlpg.hsiliu.org.tw%2fimages%2fplant%2f600%2f60adff53a130c.jpg","https://zh.wikipedia.org/zh-tw/凤仙花"] }]}]
 	}
 	,{"id": "80"
 	,"text":"少頃至園外，王夫人恐賈母乏了，便欲讓至上房內坐。賈母也覺腿酸，便點頭依允。王夫人便命丫頭忙先去鋪設坐位。"
@@ -268,7 +273,7 @@
 	}
 	,{"id": "84"
 	,"text":"王夫人方向一張小杌子上坐下，便吩咐鳳姐兒道：「老太太的飯在這裡放，添了東西來。」"
-	,"annotate":[{"杌子":[{"note":"原刊作「机子」，校作「杌子」。若是「机子」，一般寫法會是省去木字旁，「几子」。以下皆如此校正。"}]}]
+	,"annotate":[{"杌子":[{"note":"方凳子。原刊作「机子」，校作「杌子」。若是「机子」，一般寫法會是省去木字旁，「几子」。以下皆如此校正。", "illustration":["https://thfvnext.bing.com/th/id/R.f5999c91681ffd9d973d690faf70a273?rik=3BnxSRG7JctuXg&riu=http%3a%2f%2fn.sinaimg.cn%2fsinacn%2fw640h309%2f20180130%2f14f1-fyrcsrv8484802.jpg"]}]}]
 	}
 	,{"id": "85"
 	,"text":"鳳姐兒答應出去，便命人去賈母那邊告訴，那邊的婆娘忙往外傳了，丫頭們忙都趕過來。"
@@ -297,6 +302,7 @@
 	}
 	,{"id": "93"
 	,"text":"鶯兒答應，同著玉釧兒出來。鶯兒道：「這麼遠，怪熱的，怎麼端了去？」"
+	,"critique":[{"這麼遠，怪熱的，怎麼端了去？":[{"critic":"飲者","comment":"强調湯極燙，伏下文寶玉又一燙，以及傅家兩個婆子竊說寶玉是個獃子。"}]}]
 	}
 	,{"id": "94"
 	,"text":"玉釧笑道：「你放心，我自有道理。」"
@@ -488,15 +494,24 @@
 	}
 	,{"id": "150"
 	,"text":"寶玉道：「共有幾樣花樣？」"
+	,"annotate":[{"共有幾樣花樣？":[{"note":"絡子，現代稱做「中國結」花樣繁多名稱不一。示意圖如下。" , "illustration":["https://www.zhangruying.com/en/wp-content/uploads/2024/08/zhangruying-Chinese-Knot-%E4%B8%AD%E5%9B%BD%E7%BB%93-Chinese-Handcraft-Art-3.jpg","https://www.zhangruying.com/en/wp-content/uploads/2024/08/zhangruying-Chinese-Knot-%E4%B8%AD%E5%9B%BD%E7%BB%93-Chinese-Handcraft-Art-2.jpg","https://i.pinimg.com/originals/e4/eb/fe/e4ebfed20cbdf24b348ec481cf86a092.jpg"] }]}]
 	}
 	,{"id": "151"
 	,"text":"鶯兒道：「一炷香，朝天凳、象眼塊、方勝、連環、梅花、柳葉。」"
+	,"annotate":[{"一炷香":[{"note":"花樣直排的結。" , "illustration":["https://i.ytimg.com/vi/dmFWHMlSGWc/maxresdefault.jpg"] }]}
+				,{"朝天凳":[{"note":"結的花樣像底朝天的凳子。圖示：琵琶結，或像武術的朝天凳(朝天蹬)姿勢。倒三角型的結。" , "illustration":["https://th.bing.com/th/id/OIP.Qy6X5AnbTaHB228WFgwNTAHaFO","https://thf.bing.com/th/id/OIP.4VDQUoDySZqDhcEsRny9pgHaER"] }]}
+				,{"象眼塊":[{"note":"結的花樣像象眼。或許類似祥雲結。" , "illustration":["https://i.ytimg.com/vi/Fy0tJ-yv5b8/maxresdefault.jpg"] }]}
+				,{"方勝":[{"note":"結的花樣像方塊。" , "illustration":["https://tse1.mm.bing.net/th/id/OIP.O2hXPdlSb0IUUtUz8ApgcQHaHa"] }]}
+				,{"連環":[{"note":"結的花樣像連環。" , "illustration":["images/連環結.png","https://tse1.mm.bing.net/th/id/OIP.yy4mLfGDHKBYD8PWL9bEuwHaKu"] }]}
+				,{"梅花":[{"note":"結的花樣像梅花。" , "illustration":["https://i.ytimg.com/vi/2eSFzMXrXcI/maxresdefault.jpg"] }]}
+				,{"柳葉":[{"note":"結的花樣像柳葉。拉長的鳳尾結。圖示：鳳尾結。" , "illustration":["https://i.ytimg.com/vi/ktHzWNvH0i8/maxresdefault.jpg"] }]}]
 	}
 	,{"id": "152"
 	,"text":"寶玉道：「前兒你替三姑娘打的那花樣是什麼？」"
 	}
 	,{"id": "153"
 	,"text":"鶯兒道：「那是攢心梅花。」"
+	,"annotate":[{"攢心梅花。":[{"note":"比較複雜的梅花結。或類似圖示。" , "illustration":["https://preview.qiantucdn.com/58pic/OS/Pa/1H/jb/gql8m6sr3fznht15oupxk2cvwya4i9b7_PIC2018.png!w1024_new_small_1"] }]}]
 	}
 	,{"id": "154"
 	,"text":"寶玉道：「就是那樣好。」"

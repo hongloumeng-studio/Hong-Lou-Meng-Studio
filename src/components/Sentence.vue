@@ -1,6 +1,8 @@
 <template>
     <div :id="`vid_${ver_chp_id}_${id}`" class="d-inline">
-        <v-chip v-if="id" class="mr-2 d-inline verse-num" variant="elevated" >
+        <v-chip v-if="id" class="mr-2 d-inline verse-num" variant="elevated" 
+            @click="setVerseNumber(id)"
+        >
             <!--Set an ancher name for this sentence-->
             <a :name="`V${ver_chp_id}V${id}`" :id="`V${ver_chp_id}V${id}`"> {{ id }} </a>
         </v-chip>
@@ -115,7 +117,7 @@
     <v-btn icon="mdi-close" size="x-small" class="float-right mr-1" @click="annotationDialog=!annotationDialog"></v-btn>
     </div>
     <v-card-text class="mt-3 verse">
-        <div v-html="annotationText" style="background-color: khaki;padding:6px;"></div>
+        <div v-html="annotationText" style="background-color: khaki;padding:6px;font-size:125%;"></div>
         <div v-if="illustationSrc" class="text-center"  style="margin:1rem auto; width:90%;text-align: center;">
             <template v-for="i in illustationSrc">
             <template v-if="i.includes('.mp4')">
@@ -123,7 +125,7 @@
                     <source :src="i" type="video/mp4">
                 </video>
             </template>
-            <template v-else-if="i.match(/^https?:\/\/[^\s]+\.jpe?g/g)">
+            <template v-else-if="i.match(/^https?:\/\/[^\s]+\.(jpe?g|png)/g) || i.match(/^https:\/\/tse[0-9].mm.bing.net\/th\//g) ">
                 <a :href="i" target="_blank">Go to <v-icon>mdi-link</v-icon></a><br/>
                 <img :src="i" style="width:50% !important; text-align:center !important;margin:0 auto !important;"/>
             </template>
@@ -189,6 +191,9 @@ const props=defineProps({
 import {useAppStore} from '@/stores'
 const store = useAppStore()
 const activeVersions = store.activeVersions  // ToDo: rename openedVersions
+
+import useEmitter from '@/assets/js/Emitter.js'
+const emitter  = useEmitter()
 
 var ver_chp_id = toRef(props, 'ver_chp_id')  // make props reactive to parent value changes
 var id = toRef(props, 'id') 
@@ -385,6 +390,9 @@ function setCritique(){
 
     // console.log('parsedText', JSON.stringify(parsedText.value))
     parsedText.value=parsedText.value.split(delimiter)
+}
+function setVerseNumber(id){
+    emitter.emit('onVerseNumberClick', {verseId: id })
 }
 
 onMounted(()=>{

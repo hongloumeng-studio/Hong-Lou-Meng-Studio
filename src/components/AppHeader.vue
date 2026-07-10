@@ -458,6 +458,23 @@ onMounted(async ()=>{
 
     // GET void chapter template 
     voidChapterTemplate.value = voidChapterJSON
+
+    emitter.on('onVerseNumberClick', (data) => {
+      if(playFrom.value) {
+        if(confirm(`您想要變換設定到從第${data.verseId}節開始朗讀嗎？`)){
+          stop()
+          playFrom.value = data.verseId
+          play()
+        } esle 
+        {
+          playFrom.value = 0
+        }
+      } else {
+        playFrom.value = data.verseId
+        play()
+      }
+      
+    })
 })
 
 watch( _chapterNumber, (val)=>{
