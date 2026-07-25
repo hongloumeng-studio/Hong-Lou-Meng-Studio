@@ -14,6 +14,7 @@
 	}
 	,{"id": "2"
 	,"text":"\t\t\t\t\t《赤壁懷古\t其一》\n\n"
+	,"annotate":[{"赤壁懷古":[{"note":"三國赤壁、火燒連環船的典故。\n謎語謎底，可能是「河燈」或「柴」。", "illustration":["https://img1.qunarzz.com/travel/d7/1801/e4/43f30f6ceac3dfb5.jpg"]}]}]
 	}
 	,{"id": "3"
 	,"text":"\t\t\t\t\t赤壁沉埋水不流，徒留名姓載空舟。\n"
@@ -23,15 +24,19 @@
 	}
 	,{"id": "5"
 	,"text":"\t\t\t\t\t《交趾懷古\t其二》\n\n"
+	,"annotate":[{"交趾懷古":[{"note":"馬援，字文淵，東漢茂陵（陝西興平縣東北）人，有「馬革裹屍」之志。平定交阯在邊境鑄了兩根大銅柱的典故。\n秦末，張良曾顧大力士以一百二十斤鐵錘襲擊秦始皇。\n謎語謎底，可能是「鐵錘」。", "illustration":["https://pic3.zhimg.com/v2-4bc64d5c1235543429315fe9f5992f30_1440w.jpg","https://three-kingdoms.net/wp-content/uploads/2019/02/190206_2.png"]}]}]
 	}
 	,{"id": "6"
 	,"text":"\t\t\t\t\t銅鑄金鏞振紀綱，聲傳海外播戎羌。\n"
 	}
 	,{"id": "7"
 	,"text":"\t\t\t\t\t馬援自是功勞大，鐵笛無煩說子房。\n\n"
+	,"annotate":[{"馬援":[{"note":"馬援，字文淵，東漢功臣。漢光武帝時，拜為伏波將軍。平定交阯，功封新息侯。" , "illustration":["https://zh.wikipedia.org/zh-tw/马援"] }]}
+				,{"鐵笛無煩說子房":[{"note":"張良，字子房。西漢開國功臣，與蕭何、韓信同稱「漢初三傑」，封留侯。\n一説，張良曾以楚聲笛曲「四面楚歌」擾亂項羽軍心。末句以「鐵」笛對應首局的「銅」鑄金鏞，銅鑄的大鐘。\n一説，馬援的門生，爰寄生，善笛，馬援曾作歌《武溪深》以和之。馬援卻病死於南征途中。" , "illustration":["https://zh.wikipedia.org/wiki/张良"] }]}]
 	}
 	,{"id": "8"
 	,"text":"\t\t\t\t\t《鐘山懷古\t其三》\n\n"
+	,"annotate":[{"鐘山懷古":[{"note":"鐘山，即南京的紫金山。懷古詩寫六朝時期的周顒隱居於鐘山西，卻又復出任海鹽令。\n謎語謎底，可能是「鹽」。", "illustration":["https://tse3.mm.bing.net/th/id/OIP.JdXtI0vxEARErpY_xaxQSgHaEj"]}]}]
 	}
 	,{"id": "9"
 	,"text":"\t\t\t\t\t名利何曾伴汝身，無端被詔出凡塵。\n"
@@ -41,15 +46,19 @@
 	}
 	,{"id": "11"
 	,"text":"\t\t\t\t《淮陰懷古\t其四》\n\n"
+	,"annotate":[{"淮陰懷古":[{"note":"韓信被劉邦封為淮陰侯，未成名前曾受「胯下之辱」。淮陰為秦代所置之縣，位於今江蘇清江市東南。\n謎語謎底，可能是「米賬」 或是「米」。", "illustration":["https://tse4.mm.bing.net/th/id/OIP.Bmh2RmklDxx0B45gVNx-zQHaI8"]}]}]
 	}
 	,{"id": "12"
 	,"text":"\t\t\t\t壯士須防惡犬欺，三齊位定蓋棺時。\n"
+	,"annotate":[{"三齊":[{"note":"韓信曾被劉邦封為「三齊王」，也因此功高震主，後遭來呂后的誣陷。"}]}]
 	}
 	,{"id": "13"
 	,"text":"\t\t\t\t寄言世俗休輕鄙，一飯之恩死也知。\n\n"
+	,"annotate":[{"一飯之恩":[{"note":"「一飯之恩」的典故：韓信未發跡時，常於城下釣魚，因飢餓曾受漂母（浣洗布帛的老太婆）一飯之恩，後來韓信封「三齊王」，衣錦還鄉報答漂母。"}]}]
 	}
 	,{"id": "14"
 	,"text":"\t\t\t\t《廣陵懷古\t其五》\n\n"
+	,"annotate":[{"廣陵懷古":[{"note":"廣陵：隋代先前稱作「揚州」，又改為江都郡。隋煬帝，楊廣，調動河南諸郡男女百萬人挖「通濟渠」，貫通洛陽與揚州。兩岸堤上種植楊柳，稱之為「隋堤」。\n謎語謎底，可能是「柳絮」或是醋妒的「醋」。", "illustration":["https://tse2.mm.bing.net/th/id/OIP.mZUVhsdh1oONPnoVbTuyOgHaE8","https://www.newton.com.tw/img/e/d61/cGcq5SM4EDOygDO1QzMkFGN0ITY3IGNjhjZygzNkNGM4MTN2ADOhNWZ3EjYv0WZ0l2LjlGcvU2apFmYv02bj5SdklWYi5yYyN3Ztl2LvoDc0RHa.jpg"]}]}]
 	}
 	,{"id": "15"
 	,"text":"\t\t\t\t蟬噪鴉棲轉眼過，隋堤風景近如何。\n"
@@ -59,6 +68,7 @@
 	}
 	,{"id": "17"
 	,"text":"\t\t\t\t《桃葉渡懷古\t其六》\n\n"
+	,"annotate":[{"桃葉渡懷古":[{"note":"桃葉渡，南京秦淮河上的一個老渡口，因書法家王獻之《桃葉臨渡》「桃根桃葉皆王妾，此渡名惟桃葉留。同是偏房猶側重，秦臣無怪一穰侯」而得名。\n謎語謎底，可能是懸於門上的「照妖鏡」或是「茶」。", "illustration":["https://youimg1.c-ctrip.com/target/1001180000014ot6s8767.jpg","https://img1.qunarzz.com/travel/poi/1707/8f/adf758d46a18f937.jpg_r_640x458x70_6d15ec2e.jpg"]}]}]
 	}
 	,{"id": "18"
 	,"text":"\t\t\t\t衰草閑花映淺池，桃枝桃葉總分離。\n"
@@ -68,24 +78,29 @@
 	}
 	,{"id": "20"
 	,"text":"\t\t\t\t《青冢懷古\t其七》\n\n"
+	,"annotate":[{"青冢懷古":[{"note":"青冢是王昭君的墓地。據《歸洲圖經》載：「胡中多白草，王昭君冢獨青。」故曰「青冢」。\n謎語謎底，可能是「醬油」。", "illustration":["https://tse3.mm.bing.net/th/id/OIP.R_WAIySRjhNATQYGX0_dRwHaFQ"]}]}]
 	}
 	,{"id": "21"
 	,"text":"\t\t\t\t黑水茫茫咽不流，冰弦撥盡曲中愁。\n"
 	}
 	,{"id": "22"
 	,"text":"\t\t\t\t漢家制度誠堪嘆，樗櫟應慚萬古羞。\n\n"
+	,"annotate":[{"樗櫟":[{"note":"樗櫟（音 書立、或初立）：比喻不堪大用、才能低下的人。此詩諷刺漢家無「將」才，要靠女人和親來擋住匈奴的攻擊。"}]}]
 	}
 	,{"id": "23"
 	,"text":"\t\t\t\t《馬嵬懷古\t其八》\n\n"
+	,"annotate":[{"馬嵬懷古":[{"note":"楊貴妃被賜死馬嵬坡的典故。《長恨歌》以凝脂來比喻楊貴妃。\n謎語謎底，可能是「油脂」。", "illustration":["https://i.pinimg.com/736x/6b/d0/9a/6bd09abb73609953c8d17706897e9c1b.jpg"]}]}]
 	}
 	,{"id": "24"
 	,"text":"\t\t\t\t寂寞脂痕漬汗光，溫柔一旦付東洋。\n"
+	,"annotate":[{"溫柔一旦付東洋":[{"note":"一語雙關。一説，事過之後唐明皇想改葬楊貴妃，貴妃冢裡卻沒有尸骨。民間流傳楊玉環已被偷渡到日本去了。"}]}]
 	}
 	,{"id": "25"
 	,"text":"\t\t\t\t只因遺得風流跡，此日衣衾尚有香。\n\n"
 	}
 	,{"id": "26"
 	,"text":"\t\t\t\t《蒲東寺懷古\t其九》\n\n"
+	,"annotate":[{"蒲東寺懷古":[{"note":"按寶釵之言，此詩無典故。\n謎語謎底，可能是織布機的「梭子」。", "illustration":["https://southwestcontemporary.com/wp-content/uploads/2025/07/IMG_9287-Erika-Lynn-Hanson-weaving-co-artist.jpg"]}]}]
 	}
 	,{"id": "27"
 	,"text":"\t\t\t\t小紅骨賤最身輕，私掖偷攜強撮成。\n"
@@ -96,6 +111,7 @@
 	}
 	,{"id": "29"
 	,"text":"\t\t\t\t《梅花觀懷古\t其十》\n\n"
+	,"annotate":[{"梅花觀懷古":[{"note":"按寶釵之言，此詩無典故。係出自《牡丹亭》，杜麗娘自畫小像，賦詩曰：「近睹分明似儼然，遠觀自在若飛仙。他年得傍蟾宮客，不在梅邊在柳邊。」病死後，其父杜寳依麗娘遺願，在後花園建築一座梅花觀。三年之後，柳夢梅赴京趕考途中借宿梅花觀，拾得麗娘小像，得與其魂相會。\n謎語謎底，可能是「月餅」。", "illustration":["https://tse1.mm.bing.net/th/id/OIP.AYDfMdcdmS2BN2DDJqv_vgHaE7"]}]}]
 	}
 	,{"id": "30"
 	,"text":"\t\t\t\t不在梅邊在柳邊，個中誰拾畫嬋娟。\n"
@@ -151,6 +167,7 @@
 	}
 	,{"id": "45"
 	,"text":"\t\t半日，果見襲人穿戴來了，兩個丫頭與周瑞家的拿著手爐與衣包。鳳姐兒看襲人頭上戴著幾枝金釵珠釧，倒華麗；又看身上穿著桃紅百子刻絲銀鼠襖子，蔥綠盤金彩繡綿裙，外面穿著青緞灰鼠褂。"
+	,"annotate":[{"銀鼠":[{"note":"銀鼠，即毛色較白的貂皮。清朝官員服飾規定，紫貂（即黑貂）惟有帝王家方能用。" , "illustration":["https://tse2.mm.bing.net/th/id/OIP.BBa_cWl11jmTytP3mAvnTwHaJ4","https://blog.displate.com/wp-content/uploads/2024/09/1606px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project-1142x1536.jpg"] }]}]
 	}
 	,{"id":"46"
 	,"text":"鳳姐兒笑道：「這三件衣裳都是太太的，賞了你倒是好的；但只這褂子太素了些，如今穿著也冷，你該穿一件大毛的。」"
@@ -173,6 +190,7 @@
 	}
 	,{"id":"52"
 	,"text":"一面說，一面只見鳳姐兒命平兒將昨日那件石青刻絲八團天馬皮褂子拿出來，與了襲人。又看包袱，只得一個彈墨花綾水紅綢裡的夾包袱，裡面只包著兩件半舊棉襖與皮褂。"
+	,"annotate":[{"天馬皮":[{"note":"「天馬皮」即沙狐腹下的皮毛。《大清一統志•奉天府五》云：「沙狐生沙磧中，身小色白，皮集為裘，在腹下者名『天馬皮』，頷下者『烏雲豹』，皆貴重。」" , "illustration":["https://p1.ssl.qhmsg.com/t01fed7e007dae99e62.jpg"] }]}]
 	}
 	,{"id":"53"
 	,"text":"鳳姐兒又命平兒把一個玉色綢裡的哆羅呢的包袱拿出來，又命包上一件雪褂子。\n\n"
@@ -271,6 +289,7 @@
 	}
 	,{"id":"84"
 	,"text":"麝月聽說，回手便把寶玉披著起夜的一件貂頦滿襟暖襖披上，下去向盆內洗手，先倒了一鐘溫水，拿了大漱盂，寶玉漱了一口；"
+	,"annotate":[{"貂頦":[{"note":"貂鼠下巴、脖子下方到腹部之間的皮毛。"}]}]
 	}
 	,{"id":"85"
 	,"text":"然後才向茶格上取了茶碗，先用溫水涮了一涮，向暖壺中倒了半碗茶，遞與寶玉吃了；自己也漱了一漱，吃了半碗。"
@@ -320,6 +339,7 @@
 	}
 	,{"id": "100"
 	,"text":"一語未了，只聽咯噔的一聲門響，麝月慌慌張張的笑了進來，說道：「嚇了我一跳好的。黑影子裡，山子石後頭，只見一個人蹲著。我才要叫喊，原來是那個大錦雞，見了人一飛，飛到亮處來，我才看真了。若冒冒失失一嚷，倒鬧起人來。」"
+	,"annotate":[{"錦雞":[{"note":"錦雞。" , "illustration":["https://tse1.mm.bing.net/th/id/OIP.nwfTxIkczPIOQFlpQ3dfmgHaFF","https://zh.wikipedia.org/zh-tw/红腹锦鸡"] }]}]
 	}
 	,{"id": "101"
 	,"text":"一面說，一面洗手，又笑道：「晴雯出去我怎麼不見？一定是要唬我去了。」"
@@ -332,6 +352,7 @@
 	}
 	,{"id": "104"
 	,"text":"麝月道：「你就這麼『跑解馬』似的打扮得伶伶俐俐的出去了不成？」"
+	,"annotate":[{"『跑解馬』":[{"note":"跑解馬，或稱「跑馬賣解」、「跑馬走解」。古代的一種馬術，騎馬者在馬匹上竄下跳的表演技藝。" , "illustration":["https://tse3.mm.bing.net/th/id/OIP.WkiMYLHF6yqI_O_8bcoX2QHaE8"] }]}]
 	}
 	,{"id": "105"
 	,"text":"寶玉笑道：「可不就這麼去了。」"
@@ -434,6 +455,7 @@
 	}
 	,{"id": "137"
 	,"text":"寶玉道：「我常見他在螺甸小櫃子裡取錢，我和你找去。」"
+	,"annotate":[{"螺甸小櫃":[{"note":"用鮑魚殼鑲嵌製成的螺鈿小櫃。" , "illustration":["https://tse1.mm.bing.net/th/id/OIP.BesNYHPJPhpf84iIkQtv3wHaHP","https://www.youtube.com/embed/6Q95ODibBoo?si=V1Lb-ajfz2ekvFzJ"] }]}]
 	}
 	,{"id": "138"
 	,"text":"說著，二人來至寶玉堆東西的房子，開了螺甸櫃子，上一格子都是些筆墨、扇子、香餅、各色荷包、汗巾等物；下一格卻是幾串錢。於是開了抽屜，才看見一個小簸籮內放著幾塊銀子，倒也有一把戥子。"
@@ -496,6 +518,8 @@
 	}
 	,{"id":"157"
 	,"text":"不如後園門裡頭的五間大房子，橫豎有女人們上夜的，挑兩個廚子女人在那裡，單給他姊妹們弄飯。新鮮菜蔬是有分例的，在總管房裡支去，或要錢，或要東西；那些野雞、獐、狍各樣野味，分些給他們就是了。」"
+	,"annotate":[{"獐":[{"note":"獐：有獠牙的鹿，亦作麞、麕，又名河麂、牙獐、中國水鹿。" , "illustration":["https://tse1.mm.bing.net/th/id/OIP.7bAvEGsfNRTlTxujeEWLxQHaFy","https://zh.wikipedia.org/zh-tw/獐"] }]}
+				,{"狍":[{"note":"鹿科、狍屬動物，身長約1.2公尺，重約30公斤，無獠牙。雄狍有角。" , "illustration":["https://tse1.mm.bing.net/th/id/OIP.Xi6RizozOpyiaHKOJnrhIAHaE7","https://zh.wikipedia.org/zh-tw/東方狍"] }]}]
 	}
 	,{"id":"158"
 	,"text":"賈母道：「我也正想著呢，就怕又添一個廚房多事些。」"

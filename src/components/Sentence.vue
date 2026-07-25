@@ -45,7 +45,15 @@
                                     <template v-for="c in critique">
                                             <template v-if="c[segment] instanceof Array==true">
                                                 <template v-for="cs in c[segment]">
-                                                    <span :class="`text-red${cs?.critic=='飲者'? '-lighten-3':''} critique`">【{{cs?.critic }}: {{cs?.comment}}】</span>
+                                                    <span :class="`text-red${cs?.critic=='飲者'? '-lighten-3':''} critique`">
+                                                    【{{cs?.critic }}: {{cs?.comment}}】
+                                                    <template v-if="cs.link instanceof Array==true">
+                                                        <template v-for="l in cs.link">
+                                                        <a :href="l" target="_blank"><v-icon color="red">mdi-youtube</v-icon></a>
+                                                        </template>
+                                                    </template>
+                                                     
+                                                    </span>
                                                 </template>
                                             </template>
                                         <template v-else-if="c[segment]?.comment">
@@ -117,19 +125,28 @@
     <v-btn icon="mdi-close" size="x-small" class="float-right mr-1" @click="annotationDialog=!annotationDialog"></v-btn>
     </div>
     <v-card-text class="mt-3 verse">
-        <div v-html="annotationText" style="background-color: khaki;padding:6px;font-size:125%;"></div>
+        <div v-html="annotationText" style="background-color: khaki;padding:6px;font-size:125%;line-height: 1.25;"></div>
         <div v-if="illustationSrc" class="text-center"  style="margin:1rem auto; width:90%;text-align: center;">
             <template v-for="i in illustationSrc">
-            <template v-if="i.includes('.mp4')">
+            <template v-if="i.includes('.mp4') ">
                 <video width="50%" autoplay loop muted playsinline>
                     <source :src="i" type="video/mp4">
                 </video>
             </template>
-            <template v-else-if="i.match(/^https?:\/\/[^\s]+\.(jpe?g|png)/g) || i.match(/^https:\/\/tse[0-9].mm.bing.net\/th\//g) ">
+            <template v-else-if="i.match(/^https?:\/\/[^\s]+\.(jpe?g|png)/g) || i.match(/^https:\/\/tse[0-9].(mm|explicit).bing.net\/th\//g) ">
                 <a :href="i" target="_blank">Go to <v-icon>mdi-link</v-icon></a><br/>
                 <img :src="i" style="width:50% !important; text-align:center !important;margin:0 auto !important;"/>
             </template>
-            <template v-else-if="i.includes('http')">
+            <template v-else-if="i.includes('https://www.youtube.com/embed') ">
+                <a :href="i" target="_blank">Go to <v-icon>mdi-link</v-icon></a>
+                <iframe width="560" height="315"
+                    :src="i"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen>
+                    </iframe>
+            </template>
+            <template v-else-if="i.includes('http') ">
                 <a :href="i" target="_blank">Go to <v-icon>mdi-link</v-icon></a>
                 <iframe :src="i" class="illustrate" style="width:100%;margin:0 auto !important;"></iframe>
             </template>

@@ -5,8 +5,7 @@ folder_path="src/../public/versions"
 versions=["脂硯重評并癸酉後二十八回校注本", "精緻乙版"]  ##108回  or  120回
 
 ## chapterNum=108
-chapterNum=2
-
+chapterNum=55
 for version in versions:
     ## for num in range(1, chapterNum+1):
     for num in range(chapterNum, chapterNum+1):
